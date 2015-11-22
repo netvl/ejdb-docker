@@ -8,7 +8,7 @@ build the image:
 ```
 
 When building, it downloads the latest Git version of the tool from [its repository][ejdb-cli-repo],
-fixes Softmotions/ejdb-node#15 with a custom `package.json` and builds it. Afterwards
+fixes [Softmotions/ejdb-node#15][issue-15] with a custom `package.json` and builds it. Afterwards
 it exposes `ejdb` command through `ENTRYPOINT` Docker feature, so you can run it like this:
 
 ```
@@ -25,3 +25,4 @@ if it is necessary.
 
   [EJDB]: http://ejdb.org/
   [ejdb-cli-repo]: https://github.com/Softmotions/ejdb-node
+  [issue-15]: https://github.com/Softmotions/ejdb-node/issues/15
