@@ -1,5 +1,9 @@
 # Dockerfile for running EJDB command line tool
 
+**Unmaintained.**
+
+---
+
 This is a dockerfile for an image which contains [EJDB] command line tool. Run `docker build` to
 build the image:
 
